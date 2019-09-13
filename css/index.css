@@ -173,19 +173,19 @@ p {
 }
 .navigation .nav {
   padding: 2%;
-  width: 45%;
+  margin: 45%;
 }
 .navigation .links {
   color: #8d909a5b;
 }
 .navigation .links a {
   justify-content: space-between;
+  text-decoration: none;
   padding: 3%;
   margin-top: 4%;
   width: 100%;
-  font-size: 1.6rem;
-  text-decoration: none;
   margin: 0 auto;
+  font-size: 1.6rem;
   letter-spacing: 5%;
 }
 footer {
