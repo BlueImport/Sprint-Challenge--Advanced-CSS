@@ -1,19 +1,32 @@
 // Mixins Here
 
-//navigation mixins
-
-.linkLetters (){
-
-    justify-content: space-between;
-    text-decoration: none;
+.center() {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
-.content(){
-
-    padding: 2%;
-    width: 45%;
+.border-radius(@radius) {
+ -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+         border-radius: @radius;
 }
 
-.button(@background-color, @color){
-    
-}
+.button-creator(@width, @height, @btn-bg-color, @font-color, @font-size) {
+    .border-radius(5px);
+  width: @width;
+  height: @height;
+  background-color:@btn-bg-color;
+  color: @wild-sand;
+  cursor: pointer;
+  font-size: @font-size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+      color: @btn-bg-color;
+      background-color: @wild-sand;
+  }
+} 
