@@ -1,3 +1,4 @@
+@phone : media screen and (max width 500px);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -175,18 +176,24 @@ p {
   padding: 2%;
   width: 45%;
 }
-.navigation .links {
-  color: #8d909a5b;
+@media screen and (max-width: 500px) {
+  .navigation .links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+  }
 }
 .navigation .links a {
   justify-content: space-between;
-  text-decoration: none;
   padding: 3%;
   margin-top: 4%;
   width: 100%;
+  text-decoration: none;
   margin: 0 auto;
   font-size: 1.6rem;
   letter-spacing: 5%;
+  color: #22283A;
 }
 footer {
   color: #22283B;
@@ -208,6 +215,16 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .home .space-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 100%;
+  }
 }
 .home .space-images img {
   width: 28%;
@@ -243,13 +260,17 @@ footer {
 .home .walk .walk-text .btn {
   text-align: center;
   padding-top: 2%;
-  color: white;
   cursor: pointer;
   width: 100px;
   height: 35px;
   font-size: 1.8rem;
   border-radius: 8px;
-  background-color: #22283a;
+  background-color: #22283A;
+  color: #F6F6F6;
+}
+.home .walk .walk-text .btn :hover {
+  background: #F6F6F6;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
