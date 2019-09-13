@@ -160,6 +160,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  max-width: 80%;
+}
+.navigation h1 {
+  font-size: 4rem;
+}
+.navigation .nav {
+  padding: 2%;
+  width: 45%;
+}
+.navigation .links {
+  color: #8d909a5b;
+}
+.navigation .links a {
+  justify-content: space-between;
+  padding: 3%;
+  margin-top: 4%;
+  width: 100%;
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin: 0 auto;
+  letter-spacing: 5%;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
