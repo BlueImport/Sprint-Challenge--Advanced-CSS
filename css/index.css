@@ -287,9 +287,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Add padding to containers */
-  /* Full-width input fields */
-  /* Overwrite default styles of hr */
 }
 .home .walk .walk-text .btn:hover {
   color: #22283A;
@@ -304,47 +301,6 @@ footer {
 }
 .home .walk .walk-text .btn * {
   box-sizing: border-box;
-}
-.home .walk .walk-text .btn .container {
-  padding: 16px;
-}
-.home .walk .walk-text .btn input[type=text],
-.home .walk .walk-text .btn input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-.home .walk .walk-text .btn input[type=text]:focus,
-.home .walk .walk-text .btn input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-.home .walk .walk-text .btn hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-.home .walk .walk-text .btn .registerbtn {
-  background-color: #5E6164;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-.home .walk .walk-text .btn .registerbtn:hover {
-  opacity: 1;
-}
-.home .walk .walk-text .btn a {
-  color: #22283a;
-}
-.home .walk .walk-text .btn .signin {
-  background-color: #f1f1f1;
-  text-align: center;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text {
