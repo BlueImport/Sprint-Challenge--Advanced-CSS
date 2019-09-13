@@ -167,10 +167,6 @@ p {
 }
 .main-navigation .nav-container {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
 }
 .main-navigation .logo-heading {
   display: flex;
@@ -180,8 +176,7 @@ p {
 }
 @media (max-width: 500px) {
   .main-navigation .logo-heading {
-    width: 100%;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 .main-navigation .nav {
